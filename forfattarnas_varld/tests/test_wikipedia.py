@@ -13,7 +13,7 @@
 
 
 
-from services.wikipedia_service import get_bio
+from application.services.wikipedia_service import get_bio
 
 def test_get_bio_returns_text_and_title():
     author = "Leo Tolstoy"
